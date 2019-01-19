@@ -2,10 +2,9 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
 var moment = require('moment');
+var fs = require("fs");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
-
-
 var command = process.argv[2];
 var nodeArgs = process.argv;
 var fullName = "";
@@ -18,7 +17,6 @@ for (var i = 3; i < nodeArgs.length; i++) {
         fullName += nodeArgs[i];
     }
 }
-
 
 var movieF = function () {
     if (fullName === "") {
@@ -39,11 +37,6 @@ var movieF = function () {
             console.log("Actors: " + response.data.Actors);
             console.log("-----------------------------------------------");
         })
-    // fs.appendFile(".txt", ", " + num, function (err) {
-    //     if (err) {
-    //         console.log(err);
-    //     }
-
 };
 
 var concertF = function () {
@@ -70,6 +63,7 @@ var concertF = function () {
             }
         })
 };
+
 var spotF = function () {
     if (fullName === "") {
         spotify.search({ type: 'track', query: "Ace of Base" })
@@ -104,6 +98,30 @@ var spotF = function () {
                 console.log(err);
             });
     }
+};
+
+var doThisF = function () {
+    fs.readFile("random.txt", "utf8", function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+
+
+        data = data.split(",")
+        fullName = data[1];
+        switch (data[0]) {
+            case "concert-this":
+                concertF();
+                break;
+            case "spotify-this-song":
+                spotF();
+                break;
+            case "movie-this":
+                movieF();
+                break;
+        }
+    })
+
 };
 
 switch (command) {
