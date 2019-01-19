@@ -2,7 +2,9 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var axios = require("axios");
 var moment = require('moment');
-// var spotify = new Spotify(keys.spotify);
+var Spotify = require('node-spotify-api');
+var spotify = new Spotify(keys.spotify);
+
 
 var command = process.argv[2];
 var nodeArgs = process.argv;
@@ -22,11 +24,11 @@ var movieF = function () {
     if (fullName === "") {
         fullName = "Mr. Nobody";
     }
-
     let queryUrl = "http://www.omdbapi.com/?t=" + fullName + "&y=&plot=short&apikey=trilogy";
 
     axios.get(queryUrl).then(
         function (response) {
+            console.log("-----------------------------------------------");
             console.log("Title: " + response.data.Title);
             console.log("Year Released: " + response.data.Year);
             console.log("IMDB Rating: " + response.data.imdbRating);
@@ -35,6 +37,7 @@ var movieF = function () {
             console.log("Language: " + response.data.Language);
             console.log("Plot: " + response.data.Plot);
             console.log("Actors: " + response.data.Actors);
+            console.log("-----------------------------------------------");
         })
     // fs.appendFile(".txt", ", " + num, function (err) {
     //     if (err) {
@@ -50,8 +53,8 @@ var concertF = function () {
 
     axios.get(queryUrl).then(
         function (response) {
-            console.log(moment());
             for (let i = 0; i < response.data.length; i++) {
+                console.log("-----------------------------------------------");
                 console.log("Venue: " + response.data[i].venue.name);
                 if (response.data[i].venue.country === 'United States') {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
@@ -60,10 +63,47 @@ var concertF = function () {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
                     console.log("Date: " + moment(response.data[i].datetime).format('L'));
                 }
+                if (i === response.data.length - 1) {
+                    console.log("-----------------------------------------------");
+                }
 
             }
-            // console.log(response.data[0]);
         })
+};
+var spotF = function () {
+    if (fullName === "") {
+        spotify.search({ type: 'track', query: "Ace of Base" })
+            .then(function (response) {
+                console.log("-----------------------------------------------");
+                console.log("Artist: " + response.tracks.items[19].artists[0].name);
+                console.log("Track Name: " + response.tracks.items[19].name);
+                console.log("Preview URL: " + response.tracks.items[19].preview_url);
+                console.log("Album: " + response.tracks.items[19].album.name);
+                console.log("-----------------------------------------------");
+            })
+    } else {
+        spotify.search({ type: 'track', query: fullName })
+            .then(function (response) {
+                for (let j = 0; j < response.tracks.items.length; j++) {
+                    console.log("------------------------------------------------");
+                    console.log("Artist: " + response.tracks.items[j].artists[0].name);
+                    console.log("Track Name: " + response.tracks.items[j].name);
+                    if (response.tracks.items[j].preview_url == null) {
+                        console.log("Preview URL Not Available")
+                    } else {
+                        console.log("Preview URL: " + response.tracks.items[j].preview_url);
+                    }
+                    console.log("Album: " + response.tracks.items[j].album.name);
+                    if (j === response.tracks.items.length - 1) {
+                        console.log("------------------------------------------------");
+                    }
+
+                }
+            })
+            .catch(function (err) {
+                console.log(err);
+            });
+    }
 };
 
 switch (command) {
