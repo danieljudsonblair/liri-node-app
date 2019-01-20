@@ -106,9 +106,9 @@ var doThisF = function () {
             return console.log(err);
         }
 
-
         data = data.split(",")
         fullName = data[1];
+
         switch (data[0]) {
             case "concert-this":
                 concertF();
