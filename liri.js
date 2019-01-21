@@ -107,9 +107,10 @@ var doThisF = function () {
         }
 
         data = data.split(",")
-        fullName = data[1];
+        var rand = Math.floor(Math.random() * data.length * .5) * 2;
+        fullName = data[rand + 1];
 
-        switch (data[0]) {
+        switch (data[rand]) {
             case "concert-this":
                 concertF();
                 break;
