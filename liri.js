@@ -109,14 +109,28 @@ var concertF = function () {
 };
 
 var spotF = function () {
+    var spotObj = {
+        Command: "Command: " + command + " " + fullName,
+        BegDivider: [],
+        Artist: [],
+        TrackName: [],
+        PreviewURL: [],
+        Album: [],
+        EndDivider: []
+    }
+    fs.appendFileSync("log.txt", "\n" + "\n" + spotObj.Command + "\n");
     if (fullName === "") {
         spotify.search({ type: 'track', query: "Ace of Base" })
             .then(function (response) {
                 console.log("-----------------------------------------------");
                 console.log("Artist: " + response.tracks.items[19].artists[0].name);
+                spotObj.Artist.push("Artist: " + response.tracks.items[19].artists[0].name);
                 console.log("Track Name: " + response.tracks.items[19].name);
+                spotObj.TrackName.push("Track Name: " + response.tracks.items[19].name);
                 console.log("Preview URL: " + response.tracks.items[19].preview_url);
+                spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[19].preview_url);
                 console.log("Album: " + response.tracks.items[19].album.name);
+                spotObj.Album.push("Album: " + response.tracks.items[19].album.name);
                 console.log("-----------------------------------------------");
             })
     } else {
@@ -124,19 +138,37 @@ var spotF = function () {
             .then(function (response) {
                 for (let j = 0; j < response.tracks.items.length; j++) {
                     console.log("------------------------------------------------");
+                    spotObj.BegDivider.push("------------------------------------------------");
                     console.log("Artist: " + response.tracks.items[j].artists[0].name);
+                    spotObj.Artist.push("Artist: " + response.tracks.items[j].artists[0].name);
                     console.log("Track Name: " + response.tracks.items[j].name);
+                    spotObj.TrackName.push("Track Name: " + response.tracks.items[j].name);
                     if (response.tracks.items[j].preview_url == null) {
-                        console.log("Preview URL Not Available")
+                        console.log("Preview URL Not Available");
+                        spotObj.PreviewURL.push("Preview URL Not Available");
                     } else {
                         console.log("Preview URL: " + response.tracks.items[j].preview_url);
+                        spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[j].preview_url);
                     }
                     console.log("Album: " + response.tracks.items[j].album.name);
+                    spotObj.Album.push("Album: " + response.tracks.items[j].album.name);
                     if (j === response.tracks.items.length - 1) {
                         console.log("------------------------------------------------");
+                        spotObj.EndDivider.push("------------------------------------------------");
                     }
 
                 }
+
+                for (let k = 0; k < spotObj.TrackName.length; k++) {
+                    fs.appendFile("log.txt", "\n" + spotObj.BegDivider[k] + "\n" + spotObj.Artist[k] + "\n" + spotObj.TrackName[k] + "\n" + spotObj.PreviewURL[k] + "\n" + spotObj.Album[k], function (err) {
+                        if (err) {
+                            console.log(err);
+                        } else {
+
+                        }
+                    })
+                }
+                console.log("Content Appended to log.txt");
             })
             .catch(function (err) {
                 console.log(err);
