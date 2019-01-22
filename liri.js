@@ -78,17 +78,19 @@ var concertF = function () {
             for (let i = 0; i < response.data.length; i++) {
                 console.log("-----------------------------------------------");
                 console.log("Venue: " + response.data[i].venue.name);
-                concertObj.VenLocDate.push("Venue: " + response.data[i].venue.name + "\n");
+                concertObj.VenLocDate.push("\n" + "Venue: " + response.data[i].venue.name);
                 if (response.data[i].venue.country === 'United States') {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
-                    concertObj.VenLocDate.push("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region + "\n");
+                    concertObj.VenLocDate.push("\n" + "Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
                     console.log("Date: " + moment(response.data[i].datetime).format('L'));
-                    concertObj.VenLocDate.push("Date: " + moment(response.data[i].datetime).format('L') + "\n" + "\n");
+                    concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
+                    concertObj.VenLocDate.push("\n" + "-----------------------------------------------");
                 } else {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-                    concertObj.VenLocDate.push("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country + "\n");
+                    concertObj.VenLocDate.push("\n" + "Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
                     console.log("Date: " + moment(response.data[i].datetime).format('L')); + 
-                    concertObj.VenLocDate.push("Date: " + moment(response.data[i].datetime).format('L') + "\n" + "\n");
+                    concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
+                    concertObj.VenLocDate.push("\n" + "-----------------------------------------------");
                 }
                 if (i === response.data.length - 1) {
                     console.log("-----------------------------------------------");
@@ -96,7 +98,7 @@ var concertF = function () {
 
             }
 
-            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + "\n" + concertObj.VenLocDate, function (err) {
+            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
                 if (err) {
                     console.log(err);
                 } else {

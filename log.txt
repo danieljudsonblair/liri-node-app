@@ -27,141 +27,141 @@ Command: movie-this The Abyss
   "EndDivider": "-----------------------------------------------"
 }
 
-Command: concert-this Panic+at+the+Disco
+Command: concert-this Panic at the Disco
 
-Venue: Spectrum Center
-,Location: Charlotte, NC
-,Date: 01/22/2019
-
-,Venue: John Paul Jones Arena
-,Location: Charlottesville, VA
-,Date: 01/23/2019
-
-,Venue: Bridgestone Arena
-,Location: Nashville, TN
-,Date: 01/25/2019
-
-,Venue: U.S. Bank Arena
-,Location: Cincinnati, OH
-,Date: 01/26/2019
-
-,Venue: Fiserv Forum
-,Location: Milwaukee, WI
-,Date: 01/27/2019
-
-,Venue: The Van Andel Arena
-,Location: Grand Rapids, MI
-,Date: 01/29/2019
-
-,Venue: Quicken Loans Arena
-,Location: Cleveland, OH
-,Date: 01/30/2019
-
-,Venue: CHI Health Center Omaha
-,Location: Omaha, NE
-,Date: 02/01/2019
-
-,Venue: Sprint Center
-,Location: Kansas City, MO
-,Date: 02/02/2019
-
-,Venue: Allstate Arena
-,Location: Rosemont, IL
-,Date: 02/04/2019
-
-,Venue: Enterprise Center
-,Location: Saint Louis, MO
-,Date: 02/05/2019
-
-,Venue: FedExForum
-,Location: Memphis, TN
-,Date: 02/06/2019
-
-,Venue: Frank Erwin Center
-,Location: Austin, TX
-,Date: 02/08/2019
-
-,Venue: Smoothie King Center
-,Location: New Orleans, LA
-,Date: 02/09/2019
-
-,Venue: Tingley Coliseum
-,Location: Albuquerque, NM
-,Date: 02/12/2019
-
-,Venue: Honda Center
-,Location: Anaheim, CA
-,Date: 02/14/2019
-
-,Venue: The Forum
-,Location: Inglewood, CA
-,Date: 02/15/2019
-
-,Venue: Pechanga Arena San Diego
-,Location: San Diego, CA
-,Date: 02/16/2019
-
-,Venue: ORACLE Arena
-,Location: Oakland, CA
-,Date: 02/19/2019
-
-,Venue: Golden1 Center
-,Location: Sacramento, CA
-,Date: 02/20/2019
-
-,Venue: RODEOHOUSTON
-,Location: Houston, TX
-,Date: 03/03/2019
-
-,Venue: Stadthalle
-,Location: Offenbach, Germany
-,Date: 03/14/2019
-
-,Venue: Columbiahalle 
-,Location: Berlin, Germany
-,Date: 03/15/2019
-
-,Venue: Mitsubishi Electric Halle
-,Location: Düsseldorf, Germany
-,Date: 03/16/2019
-
-,Venue: AFAS Live
-,Location: Amsterdam, Netherlands
-,Date: 03/18/2019
-
-,Venue: Zenith
-,Location: Paris, France
-,Date: 03/19/2019
-
-,Venue: Lotto Arena
-,Location: Antwerp, Belgium
-,Date: 03/21/2019
-
-,Venue: SSE Hydro
-,Location: Glasgow, United Kingdom
-,Date: 03/24/2019
-
-,Venue: Motorpoint Arena
-,Location: Cardiff, United Kingdom
-,Date: 03/25/2019
-
-,Venue: Arena Birmingham
-,Location: Birmingham, United Kingdom
-,Date: 03/26/2019
-
-,Venue: The O2
-,Location: London, United Kingdom
-,Date: 03/28/2019
-
-,Venue: The O2
-,Location: London, United Kingdom
-,Date: 03/29/2019
-
-,Venue: Manchester Arena
-,Location: Manchester, United Kingdom
-,Date: 03/30/2019
-
-,Venue: Firefly Music Festival
-,Location: Dover, DE
-,Date: 06/21/2019
-
+Venue: Spectrum Center,
+Location: Charlotte, NC,
+Date: 01/22/2019,
+-----------------------------------------------,
+Venue: John Paul Jones Arena,
+Location: Charlottesville, VA,
+Date: 01/23/2019,
+-----------------------------------------------,
+Venue: Bridgestone Arena,
+Location: Nashville, TN,
+Date: 01/25/2019,
+-----------------------------------------------,
+Venue: U.S. Bank Arena,
+Location: Cincinnati, OH,
+Date: 01/26/2019,
+-----------------------------------------------,
+Venue: Fiserv Forum,
+Location: Milwaukee, WI,
+Date: 01/27/2019,
+-----------------------------------------------,
+Venue: The Van Andel Arena,
+Location: Grand Rapids, MI,
+Date: 01/29/2019,
+-----------------------------------------------,
+Venue: Quicken Loans Arena,
+Location: Cleveland, OH,
+Date: 01/30/2019,
+-----------------------------------------------,
+Venue: CHI Health Center Omaha,
+Location: Omaha, NE,
+Date: 02/01/2019,
+-----------------------------------------------,
+Venue: Sprint Center,
+Location: Kansas City, MO,
+Date: 02/02/2019,
+-----------------------------------------------,
+Venue: Allstate Arena,
+Location: Rosemont, IL,
+Date: 02/04/2019,
+-----------------------------------------------,
+Venue: Enterprise Center,
+Location: Saint Louis, MO,
+Date: 02/05/2019,
+-----------------------------------------------,
+Venue: FedExForum,
+Location: Memphis, TN,
+Date: 02/06/2019,
+-----------------------------------------------,
+Venue: Frank Erwin Center,
+Location: Austin, TX,
+Date: 02/08/2019,
+-----------------------------------------------,
+Venue: Smoothie King Center,
+Location: New Orleans, LA,
+Date: 02/09/2019,
+-----------------------------------------------,
+Venue: Tingley Coliseum,
+Location: Albuquerque, NM,
+Date: 02/12/2019,
+-----------------------------------------------,
+Venue: Honda Center,
+Location: Anaheim, CA,
+Date: 02/14/2019,
+-----------------------------------------------,
+Venue: The Forum,
+Location: Inglewood, CA,
+Date: 02/15/2019,
+-----------------------------------------------,
+Venue: Pechanga Arena San Diego,
+Location: San Diego, CA,
+Date: 02/16/2019,
+-----------------------------------------------,
+Venue: ORACLE Arena,
+Location: Oakland, CA,
+Date: 02/19/2019,
+-----------------------------------------------,
+Venue: Golden1 Center,
+Location: Sacramento, CA,
+Date: 02/20/2019,
+-----------------------------------------------,
+Venue: RODEOHOUSTON,
+Location: Houston, TX,
+Date: 03/03/2019,
+-----------------------------------------------,
+Venue: Stadthalle,
+Location: Offenbach, Germany,
+Date: 03/14/2019,
+-----------------------------------------------,
+Venue: Columbiahalle ,
+Location: Berlin, Germany,
+Date: 03/15/2019,
+-----------------------------------------------,
+Venue: Mitsubishi Electric Halle,
+Location: Düsseldorf, Germany,
+Date: 03/16/2019,
+-----------------------------------------------,
+Venue: AFAS Live,
+Location: Amsterdam, Netherlands,
+Date: 03/18/2019,
+-----------------------------------------------,
+Venue: Zenith,
+Location: Paris, France,
+Date: 03/19/2019,
+-----------------------------------------------,
+Venue: Lotto Arena,
+Location: Antwerp, Belgium,
+Date: 03/21/2019,
+-----------------------------------------------,
+Venue: SSE Hydro,
+Location: Glasgow, United Kingdom,
+Date: 03/24/2019,
+-----------------------------------------------,
+Venue: Motorpoint Arena,
+Location: Cardiff, United Kingdom,
+Date: 03/25/2019,
+-----------------------------------------------,
+Venue: Arena Birmingham,
+Location: Birmingham, United Kingdom,
+Date: 03/26/2019,
+-----------------------------------------------,
+Venue: The O2,
+Location: London, United Kingdom,
+Date: 03/28/2019,
+-----------------------------------------------,
+Venue: The O2,
+Location: London, United Kingdom,
+Date: 03/29/2019,
+-----------------------------------------------,
+Venue: Manchester Arena,
+Location: Manchester, United Kingdom,
+Date: 03/30/2019,
+-----------------------------------------------,
+Venue: Firefly Music Festival,
+Location: Dover, DE,
+Date: 06/21/2019,
+-----------------------------------------------
