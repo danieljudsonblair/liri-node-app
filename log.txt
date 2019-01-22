@@ -1,4 +1,5 @@
 
+
 Command: movie-this The Matrix
 {
   "BegDivider": "-----------------------------------------------",
@@ -13,19 +14,109 @@ Command: movie-this The Matrix
   "EndDivider": "-----------------------------------------------"
 }
 
-Command: movie-this The Abyss
-{
-  "BegDivider": "-----------------------------------------------",
-  "Title": "Title: The Abyss",
-  "Year": "Year Released: 1989",
-  "IMDBRat": "IMDB Rating: 7.6",
-  "RTRat": "Rotten Tomatoes Rating: 89%",
-  "Location": "Production Location: USA",
-  "Language": "Language: English",
-  "Plot": "Plot: A civilian diving team is enlisted to search for a lost nuclear submarine and face danger while encountering an alien aquatic species.",
-  "Actors": "Actors: Ed Harris, Mary Elizabeth Mastrantonio, Michael Biehn, Leo Burmester",
-  "EndDivider": "-----------------------------------------------"
-}
+
+Command: spotify-this-song Sailing Christopher Cross
+
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Christopher Cross
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/fe5e276cb5a370e3424aecd1d33b1418e8d596ed?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Rhino Hi-Five: Christopher Cross
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Rhino Hi-Five: Summertime Songs
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing - Live
+Preview URL: https://p.scdn.co/mp3-preview/c5789a33923c07dcccfb557226d1d0b030d806a5?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: A Night in Paris (Live)
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: 80's Fundamentals
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing (45 Version)
+Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Sailing / Poor Shirley [Digital 45]
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: 70s Rock Ballads
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Poor Shirley (45 Version)
+Preview URL: https://p.scdn.co/mp3-preview/ff22cbe1ce1eb8c44685f96d74488a497c0177be?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Sailing / Poor Shirley [Digital 45]
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing - Remastered Version
+Preview URL: https://p.scdn.co/mp3-preview/068c744c576f250be115a920124b9382536f5e9c?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Rhino Hi-Five: '80s Pop
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Late Night 70s
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Soft Pop
+------------------------------------------------
+Artist: Christopher Cross
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Radio 70's
+------------------------------------------------
+Artist: United Guitar Players
+Track Name: Sailing (Christopher Cross - Acoustic Instrumental)
+Preview URL: https://p.scdn.co/mp3-preview/59ff13ddaef90aa9ada54816d14e6223957a5a63?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Popular Hits On Spanish Acoustic Guitar, Vol. 2
+------------------------------------------------
+Artist: Hayden Tee
+Track Name: Sailing / Orinoco Flow - Christopher Cross / Enya Tribute
+Preview URL: https://p.scdn.co/mp3-preview/ffc2debda0a7ab3bca263b67b25e062a45ccb184?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Generation whY? LIVE
+------------------------------------------------
+Artist: Davide Aureli
+Track Name: Sailing - Karaoke Version Originally By Christopher Cross
+Preview URL: https://p.scdn.co/mp3-preview/4cf514746ebbf653e29b84ac271570c63b058dc9?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Successi Internazionali Karaoke (Hits Karaoke Evergreen)
+------------------------------------------------
+Artist: The Karaoke Channel
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/25e8ba538b69184f2c695f589ab247812ca459e2?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: The Karaoke Channel - In The Style Of Christopher Cross - Vol. 1
+------------------------------------------------
+Artist: Ameritz Audio Karaoke
+Track Name: Sailing (In the Style of Christopher Cross) [Karaoke Version]
+Preview URL: https://p.scdn.co/mp3-preview/fddce772713a367fc3e464b9ed7202dc48bb4e78?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Ameritz Karaoke Gold - Pop, Vol. 28
+------------------------------------------------
+Artist: Karaoke Universe
+Track Name: Sailing (In the Style of Christopher Cross)
+Preview URL: https://p.scdn.co/mp3-preview/1ba2ca1fd1b3532c1cdf5127fe5570e2eb557542?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Sailing (In the Style of Christopher Cross)
+------------------------------------------------
+Artist: Ameritz Audio Karaoke
+Track Name: Sailing (In The Style Of Christopher Cross)
+Preview URL: https://p.scdn.co/mp3-preview/7324f26a82fdbf0b491845b38b58e0e682af20f3?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Karaoke - Pop - 1980's Vol 4
+------------------------------------------------
+Artist: The Karaoke Channel
+Track Name: Sailing
+Preview URL: https://p.scdn.co/mp3-preview/1801408cea3e014b49c0bd60e981a31970473a16?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: The Karaoke Channel - Sing Sailing Like Christopher Cross
 
 Command: concert-this Panic at the Disco
 
@@ -166,105 +257,44 @@ Location: Dover, DE,
 Date: 06/21/2019,
 -----------------------------------------------
 
-Command: spotify-this-song I Want it That Way Backstreet Boys
+Command: do-what-it-says "UHF"
+{
+  "BegDivider": "-----------------------------------------------",
+  "Title": "Title: UHF",
+  "Year": "Year Released: 1989",
+  "IMDBRat": "IMDB Rating: 7.0",
+  "RTRat": "Rotten Tomatoes Rating: 63%",
+  "Location": "Production Location: USA",
+  "Language": "Language: English",
+  "Plot": "Plot: An unemployed visionary becomes the manager of a local public station. The station becomes a success, with all sorts of hilarious sight gags and wacky humor.",
+  "Actors": "Actors: 'Weird Al' Yankovic, Victoria Jackson, Kevin McCarthy, Michael Richards",
+  "EndDivider": "-----------------------------------------------"
+}
+
+
+Command: do-what-it-says Sin City AC/DC Powerage
 
 ------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: The Hits--Chapter One
+Artist: AC/DC
+Track Name: Sin City
+Preview URL: https://p.scdn.co/mp3-preview/adae1cc1dd20851426542d0731e6d85966eb4c4d?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Powerage
 ------------------------------------------------
-Artist: "Weird Al" Yankovic
-Track Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/5632d8e302d70afaa8f79c962aa4b2032a45b3ef?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: The Essential "Weird Al" Yankovic
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/adf2485de3f3f375593b5307a792e8d8e6f19794?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: NKOTBSB
-------------------------------------------------
-Artist: "Weird Al" Yankovic
-Track Name: Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/e217ea111ab84a777f204252fce4b18d5de3ae80?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Poodle Hat
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/c9302062adf4f59e60335f30c7ca46b487a267fb?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: NOW That's What I Call 90s Pop
-------------------------------------------------
-Artist: Rock the Cradle
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/8a12435e437504e476a63627faa7c7fa7a35cd99?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Lullaby Versions of Backstreet Boys
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way - Jack D. Elliot Radio Mix
-Preview URL: https://p.scdn.co/mp3-preview/06ba13935657d57facb75620d8bc2eba1f2fd82f?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Drive Me Crazy
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Mother's Day Songs
-------------------------------------------------
-Artist: Lord Boyd
-Track Name: I want it That Way (remix of The Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/75b936ebde9c5c10b1dc0a46d5d4e894ce3c00ba?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Beyoncé EP (Maybach edition)
-------------------------------------------------
-Artist: Twinkle Twinkle Little Rock Star
-Track Name: I Want It That Way (Lullaby Version of Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/f50526547fb0f5fb721343757e9b5f0e554fd32f?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Lullaby Versions of Boy Band Classics
-------------------------------------------------
-Artist: Lord Boyd
-Track Name: I Want It That Way (Remix of the Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/5da256d15290aed51a0d14644b1a00d48ee885a5?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Beyoncé EP (Maybach Edition)
-------------------------------------------------
-Artist: ProSound Karaoke Band
-Track Name: I Want It That Way (Karaoke Instrumental Track) [In the Style of Backstreet Boys]
-Preview URL: https://p.scdn.co/mp3-preview/51ae6506ac10d2235c8244fb19b2eee025d7d1c6?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Karaoke Hits!: Backstreet Boys
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/2f96341eb8415a3efb27375db1c4d59928408c2f?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: 90 Sweet 90s Hits!
-------------------------------------------------
-Artist: Players Since Creation
-Track Name: I Want It That Way - Backstreet Boys
-Preview URL: https://p.scdn.co/mp3-preview/5cc929be7516f6262c1f72219cd1091ab579cc66?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Difference in the Key
-------------------------------------------------
-Artist: Starlite Karaoke
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/2c04c94f96f1dee0be158c74122de448d0dedc24?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Karaoke-Backstreet Boys Style
-------------------------------------------------
-Artist: High School Music Band
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/c162bad94d994397ddef56189d4049eaf6a59ff3?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Tribute to Backstreet Boys
-------------------------------------------------
-Artist: The New Boy Sound Machine
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/df404f61ec61b5ae28f2e7692977e7f8014ded78?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: A Tribute To Backstreet Boys
-------------------------------------------------
-Artist: Hot Fox Karaoke
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/8264a30f89b8f2e06070efc16b6f066701d4a0dd?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Hot Fox Karaoke The Backstreet Boys 2
-------------------------------------------------
-Artist: United DJ's of Dance
-Track Name: I Want It That Way (DJ Remixed) (As Made Famous by Backstreet Boys)
-Preview URL: https://p.scdn.co/mp3-preview/a34087e99aecf75ce44714b07b7965b1ac94bca2?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: 49 #1 Dance Hits – DJ Remixed
-------------------------------------------------
-Artist: Backstreet Boys
-Track Name: I Want It That Way
-Preview URL: https://p.scdn.co/mp3-preview/b8c2410a5acb68b462be6ac85f1312430e2b149c?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Millennium
+Artist: Anthony Krizan with CC Colletti
+Track Name: Sin City
+Preview URL: https://p.scdn.co/mp3-preview/6506e463208cd77e17d6906daae4cae62239d248?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: It's A Bird, It's A Plane, It's A Tribute To AC/DC Powerage
+
+Command: do-what-it-says "Beavis and Butt-head Do America"
+{
+  "BegDivider": "-----------------------------------------------",
+  "Title": "Title: Beavis and Butt-Head Do America",
+  "Year": "Year Released: 1996",
+  "IMDBRat": "IMDB Rating: 6.8",
+  "RTRat": "Rotten Tomatoes Rating: 72%",
+  "Location": "Production Location: USA",
+  "Language": "Language: English, Spanish, Hindi",
+  "Plot": "Plot: The dim-witted teen duo of Beavis and Butt-Head travel across America in search of their stolen television set.",
+  "Actors": "Actors: Mike Judge, Bruce Willis, Demi Moore, Cloris Leachman",
+  "EndDivider": "-----------------------------------------------"
+}

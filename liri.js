@@ -53,7 +53,7 @@ var movieF = function () {
             for (var key in movieObj) {
                 console.log(movieObj[key]);
             }
-            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + JSON.stringify(movieObj, null, 2) + "\n", function (err) {
+            fs.appendFile("log.txt", "\n" + "\n" + "Command: " + command + " " + fullName + "\n" + JSON.stringify(movieObj, null, 2) + "\n", function (err) {
                 if (err) {
                     console.log(err);
                 } else {
@@ -98,7 +98,7 @@ var concertF = function () {
 
             }
 
-            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
+            fs.appendFile("log.txt", "\n" + "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
                 if (err) {
                     console.log(err);
                 } else {
