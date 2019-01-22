@@ -1,13 +1,13 @@
 # liri-node-app
 
-LIRI is a **L**anguage **I**nterpretation and **R**ecognition **I**nterface.  More specifically, LIRI is a command line node.js app that takes in commands and user-defined parameters (arguments), returns data via API requests.
+LIRI is a **L**anguage **I**nterpretation and **R**ecognition **I**nterface.  More specifically, LIRI is a command line node.js app that takes in commands and user-defined parameters (arguments) and returns data via API requests.
 
 Watch a demonstration [here!](https://www.youtube.com/watch?v=Xxd5pmUV1eA&feature=youtu.be&ab_channel=S1191669)
 
 LIRI was built to return song, artist, and movie data.  It consists of 4 commands:
 
 * **concert-this:** returns upcoming concert data of an artist or band
-* **spotify-this-song:** returns artist, album, and a preview URL of a song
+* **spotify-this-song:** returns artist, album, and (when available) a preview URL of a song
 * **movie-this:** returns information and ratings of a movie
 * **do-what-it-says:** returns “random” data from a linked .txt file
 
