@@ -1,6 +1,6 @@
 # liri-node-app
 
-LIRI is a **L**anguage **I**nterpretation and **R**ecognition **I**nterface.  More specifically, LIRI is a command line node.js app that takes in commands and user-defined parameters (arguments), returns data via API requests.
+LIRI is a **L**anguage **I**nterpretation and **R**ecognition **I**nterface.  More specifically, LIRI is a command line node.js app that takes in commands and user-defined parameters (arguments) and returns data via API requests.
 
 Watch a demonstration [here!](https://www.youtube.com/watch?v=Xxd5pmUV1eA&feature=youtu.be&ab_channel=S1191669)
 
