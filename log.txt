@@ -1,5 +1,4 @@
 
-
 Command: movie-this The Matrix
 {
   "BegDivider": "-----------------------------------------------",
@@ -29,6 +28,7 @@ Command: movie-this The Abyss
 }
 
 Command: concert-this Panic+at+the+Disco
+
 Venue: Spectrum Center
 ,Location: Charlotte, NC
 ,Date: 01/22/2019

@@ -95,8 +95,8 @@ var concertF = function () {
                 }
 
             }
-            console.log(concertObj.VenLocDate);
-            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
+
+            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + "\n" + concertObj.VenLocDate, function (err) {
                 if (err) {
                     console.log(err);
                 } else {
