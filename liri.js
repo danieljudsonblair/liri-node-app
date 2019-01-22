@@ -72,21 +72,37 @@ var concertF = function () {
 
     axios.get(queryUrl).then(
         function (response) {
+            var concertObj = {
+                VenLocDate: []
+            }
             for (let i = 0; i < response.data.length; i++) {
                 console.log("-----------------------------------------------");
                 console.log("Venue: " + response.data[i].venue.name);
+                concertObj.VenLocDate.push("Venue: " + response.data[i].venue.name + "\n");
                 if (response.data[i].venue.country === 'United States') {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
+                    concertObj.VenLocDate.push("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region + "\n");
                     console.log("Date: " + moment(response.data[i].datetime).format('L'));
+                    concertObj.VenLocDate.push("Date: " + moment(response.data[i].datetime).format('L') + "\n" + "\n");
                 } else {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-                    console.log("Date: " + moment(response.data[i].datetime).format('L'));
+                    concertObj.VenLocDate.push("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country + "\n");
+                    console.log("Date: " + moment(response.data[i].datetime).format('L')); + 
+                    concertObj.VenLocDate.push("Date: " + moment(response.data[i].datetime).format('L') + "\n" + "\n");
                 }
                 if (i === response.data.length - 1) {
                     console.log("-----------------------------------------------");
                 }
 
             }
+            console.log(concertObj.VenLocDate);
+            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log("Content Appended to log.txt");
+                }
+            })
         })
 };
 
