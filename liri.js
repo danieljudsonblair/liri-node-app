@@ -19,6 +19,18 @@ for (var i = 3; i < nodeArgs.length; i++) {
 }
 
 var movieF = function () {
+    var movieObj = {
+        BegDivider: "",
+        Title: "",
+        Year: "",
+        IMDBRat: "",
+        RTRat: "",
+        Location: "",
+        Language: "",
+        Plot: "",
+        Actors: "",
+        EndDivider: ""
+    }
     if (fullName === "") {
         fullName = "Mr. Nobody";
     }
@@ -26,17 +38,31 @@ var movieF = function () {
 
     axios.get(queryUrl).then(
         function (response) {
-            console.log("-----------------------------------------------");
-            console.log("Title: " + response.data.Title);
-            console.log("Year Released: " + response.data.Year);
-            console.log("IMDB Rating: " + response.data.imdbRating);
-            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
-            console.log("Production Location: " + response.data.Country);
-            console.log("Language: " + response.data.Language);
-            console.log("Plot: " + response.data.Plot);
-            console.log("Actors: " + response.data.Actors);
-            console.log("-----------------------------------------------");
+            movieObj.BegDivider = "-----------------------------------------------";
+            movieObj.Title = "Title: " + response.data.Title;
+            movieObj.Year = "Year Released: " + response.data.Year;
+            movieObj.IMDBRat = "IMDB Rating: " + response.data.imdbRating;
+            movieObj.RTRat = "Rotten Tomatoes Rating: " + response.data.Ratings[1].Value;
+            movieObj.Location = "Production Location: " + response.data.Country;
+            movieObj.Language = "Language: " + response.data.Language;
+            movieObj.Plot = "Plot: " + response.data.Plot;
+            movieObj.Actors = "Actors: " + response.data.Actors;
+            movieObj.EndDivider = "-----------------------------------------------";
+
+
+            for (var key in movieObj) {
+                console.log(movieObj[key]);
+            }
+            fs.appendFile("log.txt", "\n" + "Command: " + command + " " + fullName + "\n" + JSON.stringify(movieObj, null, 2) + "\n", function (err) {
+                if (err) {
+                    console.log(err);
+                } else {
+                    console.log("Content Appended to log.txt");
+                }
+            })
+
         })
+
 };
 
 var concertF = function () {

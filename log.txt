@@ -1,0 +1,28 @@
+
+Command: movie-this the matrix
+{
+  "BegDivider": "-----------------------------------------------",
+  "Title": "Title: The Matrix",
+  "Year": "Year Released: 1999",
+  "IMDBRat": "IMDB Rating: 8.7",
+  "RTRat": "Rotten Tomatoes Rating: 88%",
+  "Location": "Production Location: USA",
+  "Language": "Language: English",
+  "Plot": "Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+  "Actors": "Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving",
+  "EndDivider": "-----------------------------------------------"
+}
+
+Command: movie-this the abyss
+{
+  "BegDivider": "-----------------------------------------------",
+  "Title": "Title: The Abyss",
+  "Year": "Year Released: 1989",
+  "IMDBRat": "IMDB Rating: 7.6",
+  "RTRat": "Rotten Tomatoes Rating: 89%",
+  "Location": "Production Location: USA",
+  "Language": "Language: English",
+  "Plot": "Plot: A civilian diving team is enlisted to search for a lost nuclear submarine and face danger while encountering an alien aquatic species.",
+  "Actors": "Actors: Ed Harris, Mary Elizabeth Mastrantonio, Michael Biehn, Leo Burmester",
+  "EndDivider": "-----------------------------------------------"
+}
