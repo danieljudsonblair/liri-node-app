@@ -9,7 +9,7 @@ LIRI was built to return song, artist, and movie data.  It consists of 4 command
 * **concert-this:** returns upcoming concert data of an artist or band
 * **spotify-this-song:** returns artist, album, and (when available) a preview URL of a song
 * **movie-this:** returns information and ratings of a movie
-* **do-what-it-says:** returns “random” data from a linked .txt file
+* **do-what-it-says:** returns a “random” command and argument pair from a linked .txt file
 
 LIRI uses a number of npm packages:
 * -Axios
