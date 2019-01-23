@@ -5,6 +5,7 @@ var moment = require('moment');
 var fs = require("fs");
 var Spotify = require('node-spotify-api');
 var spotify = new Spotify(keys.spotify);
+
 var command = process.argv[2];
 var nodeArgs = process.argv;
 var fullName = "";
@@ -61,7 +62,9 @@ var movieF = function () {
                 }
             })
 
-        })
+        }).catch(function (err) {
+            console.log(err);
+        });
 
 };
 
@@ -88,8 +91,8 @@ var concertF = function () {
                 } else {
                     console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
                     concertObj.VenLocDate.push("\n" + "Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-                    console.log("Date: " + moment(response.data[i].datetime).format('L')); + 
-                    concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
+                    console.log("Date: " + moment(response.data[i].datetime).format('L')); +
+                        concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
                     concertObj.VenLocDate.push("\n" + "-----------------------------------------------");
                 }
                 if (i === response.data.length - 1) {
@@ -105,7 +108,9 @@ var concertF = function () {
                     console.log("Content Appended to log.txt");
                 }
             })
-        })
+        }).catch(function (err) {
+            console.log(err);
+        });
 };
 
 var spotF = function () {
