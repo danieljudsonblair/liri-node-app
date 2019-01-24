@@ -125,17 +125,17 @@ var spotF = function () {
     }
     fs.appendFileSync("log.txt", "\n" + "\n" + spotObj.Command + "\n");
     if (fullName === "") {
-        spotify.search({ type: 'track', query: "Ace of Base" })
+        spotify.search({ type: 'track', query: "The Sign Ace of Base" , limit:1})
             .then(function (response) {
                 console.log("-----------------------------------------------");
-                console.log("Artist: " + response.tracks.items[19].artists[0].name);
-                spotObj.Artist.push("Artist: " + response.tracks.items[19].artists[0].name);
-                console.log("Track Name: " + response.tracks.items[19].name);
-                spotObj.TrackName.push("Track Name: " + response.tracks.items[19].name);
-                console.log("Preview URL: " + response.tracks.items[19].preview_url);
-                spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[19].preview_url);
-                console.log("Album: " + response.tracks.items[19].album.name);
-                spotObj.Album.push("Album: " + response.tracks.items[19].album.name);
+                console.log("Artist: " + response.tracks.items[0].artists[0].name);
+                spotObj.Artist.push("Artist: " + response.tracks.items[0].artists[0].name);
+                console.log("Track Name: " + response.tracks.items[0].name);
+                spotObj.TrackName.push("Track Name: " + response.tracks.items[0].name);
+                console.log("Preview URL: " + response.tracks.items[0].preview_url);
+                spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[0].preview_url);
+                console.log("Album: " + response.tracks.items[0].album.name);
+                spotObj.Album.push("Album: " + response.tracks.items[0].album.name);
                 console.log("-----------------------------------------------");
             })
     } else {
