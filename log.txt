@@ -1,300 +1,298 @@
 
 
+Command: movie-this Mr. Nobody
+
+-----------------------------------------------
+Title: Mr. Nobody
+Year Released: 2009
+IMDB Rating: 7.9
+Rotten Tomatoes Rating: 67%
+Production Location: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+-----------------------------------------------
+
 Command: movie-this The Matrix
-{
-  "BegDivider": "-----------------------------------------------",
-  "Title": "Title: The Matrix",
-  "Year": "Year Released: 1999",
-  "IMDBRat": "IMDB Rating: 8.7",
-  "RTRat": "Rotten Tomatoes Rating: 88%",
-  "Location": "Production Location: USA",
-  "Language": "Language: English",
-  "Plot": "Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
-  "Actors": "Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving",
-  "EndDivider": "-----------------------------------------------"
-}
 
-
-Command: spotify-this-song Sailing Christopher Cross
-
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Christopher Cross
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/fe5e276cb5a370e3424aecd1d33b1418e8d596ed?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Rhino Hi-Five: Christopher Cross
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Rhino Hi-Five: Summertime Songs
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing - Live
-Preview URL: https://p.scdn.co/mp3-preview/c5789a33923c07dcccfb557226d1d0b030d806a5?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: A Night in Paris (Live)
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: 80's Fundamentals
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing (45 Version)
-Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Sailing / Poor Shirley [Digital 45]
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: 70s Rock Ballads
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Poor Shirley (45 Version)
-Preview URL: https://p.scdn.co/mp3-preview/ff22cbe1ce1eb8c44685f96d74488a497c0177be?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Sailing / Poor Shirley [Digital 45]
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing - Remastered Version
-Preview URL: https://p.scdn.co/mp3-preview/068c744c576f250be115a920124b9382536f5e9c?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Rhino Hi-Five: '80s Pop
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/55556c40705f9a1b8ff8ee20e95a0b744fe18356?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Late Night 70s
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Soft Pop
-------------------------------------------------
-Artist: Christopher Cross
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/f62a9fad459740cd1186d4b0b90a62c11c2d9b71?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Radio 70's
-------------------------------------------------
-Artist: United Guitar Players
-Track Name: Sailing (Christopher Cross - Acoustic Instrumental)
-Preview URL: https://p.scdn.co/mp3-preview/59ff13ddaef90aa9ada54816d14e6223957a5a63?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Popular Hits On Spanish Acoustic Guitar, Vol. 2
-------------------------------------------------
-Artist: Hayden Tee
-Track Name: Sailing / Orinoco Flow - Christopher Cross / Enya Tribute
-Preview URL: https://p.scdn.co/mp3-preview/ffc2debda0a7ab3bca263b67b25e062a45ccb184?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Generation whY? LIVE
-------------------------------------------------
-Artist: Davide Aureli
-Track Name: Sailing - Karaoke Version Originally By Christopher Cross
-Preview URL: https://p.scdn.co/mp3-preview/4cf514746ebbf653e29b84ac271570c63b058dc9?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Successi Internazionali Karaoke (Hits Karaoke Evergreen)
-------------------------------------------------
-Artist: The Karaoke Channel
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/25e8ba538b69184f2c695f589ab247812ca459e2?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: The Karaoke Channel - In The Style Of Christopher Cross - Vol. 1
-------------------------------------------------
-Artist: Ameritz Audio Karaoke
-Track Name: Sailing (In the Style of Christopher Cross) [Karaoke Version]
-Preview URL: https://p.scdn.co/mp3-preview/fddce772713a367fc3e464b9ed7202dc48bb4e78?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Ameritz Karaoke Gold - Pop, Vol. 28
-------------------------------------------------
-Artist: Karaoke Universe
-Track Name: Sailing (In the Style of Christopher Cross)
-Preview URL: https://p.scdn.co/mp3-preview/1ba2ca1fd1b3532c1cdf5127fe5570e2eb557542?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Sailing (In the Style of Christopher Cross)
-------------------------------------------------
-Artist: Ameritz Audio Karaoke
-Track Name: Sailing (In The Style Of Christopher Cross)
-Preview URL: https://p.scdn.co/mp3-preview/7324f26a82fdbf0b491845b38b58e0e682af20f3?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Karaoke - Pop - 1980's Vol 4
-------------------------------------------------
-Artist: The Karaoke Channel
-Track Name: Sailing
-Preview URL: https://p.scdn.co/mp3-preview/1801408cea3e014b49c0bd60e981a31970473a16?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: The Karaoke Channel - Sing Sailing Like Christopher Cross
+-----------------------------------------------
+Title: The Matrix
+Year Released: 1999
+IMDB Rating: 8.7
+Rotten Tomatoes Rating: 88%
+Production Location: USA
+Language: English
+Plot: A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.
+Actors: Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving
+-----------------------------------------------
 
 Command: concert-this Panic at the Disco
 
-Venue: Spectrum Center,
-Location: Charlotte, NC,
-Date: 01/22/2019,
------------------------------------------------,
-Venue: John Paul Jones Arena,
-Location: Charlottesville, VA,
-Date: 01/23/2019,
------------------------------------------------,
-Venue: Bridgestone Arena,
-Location: Nashville, TN,
-Date: 01/25/2019,
------------------------------------------------,
-Venue: U.S. Bank Arena,
-Location: Cincinnati, OH,
-Date: 01/26/2019,
------------------------------------------------,
-Venue: Fiserv Forum,
-Location: Milwaukee, WI,
-Date: 01/27/2019,
------------------------------------------------,
-Venue: The Van Andel Arena,
-Location: Grand Rapids, MI,
-Date: 01/29/2019,
------------------------------------------------,
-Venue: Quicken Loans Arena,
-Location: Cleveland, OH,
-Date: 01/30/2019,
------------------------------------------------,
-Venue: CHI Health Center Omaha,
-Location: Omaha, NE,
-Date: 02/01/2019,
------------------------------------------------,
-Venue: Sprint Center,
-Location: Kansas City, MO,
-Date: 02/02/2019,
------------------------------------------------,
-Venue: Allstate Arena,
-Location: Rosemont, IL,
-Date: 02/04/2019,
------------------------------------------------,
-Venue: Enterprise Center,
-Location: Saint Louis, MO,
-Date: 02/05/2019,
------------------------------------------------,
-Venue: FedExForum,
-Location: Memphis, TN,
-Date: 02/06/2019,
------------------------------------------------,
-Venue: Frank Erwin Center,
-Location: Austin, TX,
-Date: 02/08/2019,
------------------------------------------------,
-Venue: Smoothie King Center,
-Location: New Orleans, LA,
-Date: 02/09/2019,
------------------------------------------------,
-Venue: Tingley Coliseum,
-Location: Albuquerque, NM,
-Date: 02/12/2019,
------------------------------------------------,
-Venue: Honda Center,
-Location: Anaheim, CA,
-Date: 02/14/2019,
------------------------------------------------,
-Venue: The Forum,
-Location: Inglewood, CA,
-Date: 02/15/2019,
------------------------------------------------,
-Venue: Pechanga Arena San Diego,
-Location: San Diego, CA,
-Date: 02/16/2019,
------------------------------------------------,
-Venue: ORACLE Arena,
-Location: Oakland, CA,
-Date: 02/19/2019,
------------------------------------------------,
-Venue: Golden1 Center,
-Location: Sacramento, CA,
-Date: 02/20/2019,
------------------------------------------------,
-Venue: RODEOHOUSTON,
-Location: Houston, TX,
-Date: 03/03/2019,
------------------------------------------------,
-Venue: Stadthalle,
-Location: Offenbach, Germany,
-Date: 03/14/2019,
------------------------------------------------,
-Venue: Columbiahalle ,
-Location: Berlin, Germany,
-Date: 03/15/2019,
------------------------------------------------,
-Venue: Mitsubishi Electric Halle,
-Location: Düsseldorf, Germany,
-Date: 03/16/2019,
------------------------------------------------,
-Venue: AFAS Live,
-Location: Amsterdam, Netherlands,
-Date: 03/18/2019,
------------------------------------------------,
-Venue: Zenith,
-Location: Paris, France,
-Date: 03/19/2019,
------------------------------------------------,
-Venue: Lotto Arena,
-Location: Antwerp, Belgium,
-Date: 03/21/2019,
------------------------------------------------,
-Venue: SSE Hydro,
-Location: Glasgow, United Kingdom,
-Date: 03/24/2019,
------------------------------------------------,
-Venue: Motorpoint Arena,
-Location: Cardiff, United Kingdom,
-Date: 03/25/2019,
------------------------------------------------,
-Venue: Arena Birmingham,
-Location: Birmingham, United Kingdom,
-Date: 03/26/2019,
------------------------------------------------,
-Venue: The O2,
-Location: London, United Kingdom,
-Date: 03/28/2019,
------------------------------------------------,
-Venue: The O2,
-Location: London, United Kingdom,
-Date: 03/29/2019,
------------------------------------------------,
-Venue: Manchester Arena,
-Location: Manchester, United Kingdom,
-Date: 03/30/2019,
------------------------------------------------,
-Venue: Firefly Music Festival,
-Location: Dover, DE,
-Date: 06/21/2019,
+-----------------------------------------------
+Venue: Bridgestone Arena
+Location: Nashville, TN
+Date: 01/25/2019
+-----------------------------------------------
+Venue: Fiserv Forum
+Location: Milwaukee, WI
+Date: 01/27/2019
+-----------------------------------------------
+Venue: U.S. Bank Arena
+Location: Cincinnati, OH
+Date: 01/26/2019
+-----------------------------------------------
+Venue: The Van Andel Arena
+Location: Grand Rapids, MI
+Date: 01/29/2019
+-----------------------------------------------
+Venue: Quicken Loans Arena
+Location: Cleveland, OH
+Date: 01/30/2019
+-----------------------------------------------
+Venue: Sprint Center
+Location: Kansas City, MO
+Date: 02/02/2019
+-----------------------------------------------
+Venue: Allstate Arena
+Location: Rosemont, IL
+Date: 02/04/2019
+-----------------------------------------------
+Venue: Enterprise Center
+Location: Saint Louis, MO
+Date: 02/05/2019
+-----------------------------------------------
+Venue: FedExForum
+Location: Memphis, TN
+Date: 02/06/2019
+-----------------------------------------------
+Venue: Smoothie King Center
+Location: New Orleans, LA
+Date: 02/09/2019
+-----------------------------------------------
+Venue: Frank Erwin Center
+Location: Austin, TX
+Date: 02/08/2019
+-----------------------------------------------
+Venue: Tingley Coliseum
+Location: Albuquerque, NM
+Date: 02/12/2019
+-----------------------------------------------
+Venue: The Forum
+Location: Inglewood, CA
+Date: 02/15/2019
+-----------------------------------------------
+Venue: ORACLE Arena
+Location: Oakland, CA
+Date: 02/19/2019
+-----------------------------------------------
+Venue: Honda Center
+Location: Anaheim, CA
+Date: 02/14/2019
+-----------------------------------------------
+Venue: Golden1 Center
+Location: Sacramento, CA
+Date: 02/20/2019
+-----------------------------------------------
+Venue: RODEOHOUSTON
+Location: Houston, TX
+Date: 03/03/2019
+-----------------------------------------------
+Venue: Pechanga Arena San Diego
+Location: San Diego, CA
+Date: 02/16/2019
+-----------------------------------------------
+Venue: Stadthalle
+Location: Offenbach, Germany
+Date: 03/14/2019
+-----------------------------------------------
+Venue: Columbiahalle 
+Location: Berlin, Germany
+Date: 03/15/2019
+-----------------------------------------------
+Venue: Mitsubishi Electric Halle
+Location: Düsseldorf, Germany
+Date: 03/16/2019
+-----------------------------------------------
+Venue: Zenith
+Location: Paris, France
+Date: 03/19/2019
+-----------------------------------------------
+Venue: Lotto Arena
+Location: Antwerp, Belgium
+Date: 03/21/2019
+-----------------------------------------------
+Venue: SSE Hydro
+Location: Glasgow, United Kingdom
+Date: 03/24/2019
+-----------------------------------------------
+Venue: AFAS Live
+Location: Amsterdam, Netherlands
+Date: 03/18/2019
+-----------------------------------------------
+Venue: Motorpoint Arena
+Location: Cardiff, United Kingdom
+Date: 03/25/2019
+-----------------------------------------------
+Venue: Arena Birmingham
+Location: Birmingham, United Kingdom
+Date: 03/26/2019
+-----------------------------------------------
+Venue: The O2
+Location: London, United Kingdom
+Date: 03/28/2019
+-----------------------------------------------
+Venue: Manchester Arena
+Location: Manchester, United Kingdom
+Date: 03/30/2019
+-----------------------------------------------
+Venue: Firefly Music Festival
+Location: Dover, DE
+Date: 06/21/2019
+-----------------------------------------------
+Venue: The O2
+Location: London, United Kingdom
+Date: 03/29/2019
+-----------------------------------------------
+Venue: CHI Health Center Omaha
+Location: Omaha, NE
+Date: 02/01/2019
 -----------------------------------------------
 
-Command: do-what-it-says "UHF"
-{
-  "BegDivider": "-----------------------------------------------",
-  "Title": "Title: UHF",
-  "Year": "Year Released: 1989",
-  "IMDBRat": "IMDB Rating: 7.0",
-  "RTRat": "Rotten Tomatoes Rating: 63%",
-  "Location": "Production Location: USA",
-  "Language": "Language: English",
-  "Plot": "Plot: An unemployed visionary becomes the manager of a local public station. The station becomes a success, with all sorts of hilarious sight gags and wacky humor.",
-  "Actors": "Actors: 'Weird Al' Yankovic, Victoria Jackson, Kevin McCarthy, Michael Richards",
-  "EndDivider": "-----------------------------------------------"
-}
+Command: spotify-this-song 
 
+-----------------------------------------------
+Artist: Ace of Base
+Track Name: The Sign
+Preview URL: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: The Sign (US Album) [Remastered]
+-----------------------------------------------
 
-Command: do-what-it-says Sin City AC/DC Powerage
+Command: spotify-this-song Where is my mind
 
-------------------------------------------------
-Artist: AC/DC
-Track Name: Sin City
-Preview URL: https://p.scdn.co/mp3-preview/adae1cc1dd20851426542d0731e6d85966eb4c4d?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: Powerage
-------------------------------------------------
-Artist: Anthony Krizan with CC Colletti
-Track Name: Sin City
-Preview URL: https://p.scdn.co/mp3-preview/6506e463208cd77e17d6906daae4cae62239d248?cid=2bba23f978ff4f22b8cf5e6495b51973
-Album: It's A Bird, It's A Plane, It's A Tribute To AC/DC Powerage
+-----------------------------------------------
+Artist: Pixies
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/5ecbfac4d7b32924d4851b8e50d6d725e25c1c8c?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Surfer Rosa (Remastered)
+-----------------------------------------------
+Artist: Trampled by Turtles
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/a9362dff3f46ea722a98bac0a8bf77e5a3dcae07?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind?
+-----------------------------------------------
+Artist: FMLYBND
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/aa4fc9e44549e9979a64cda3d49940c8384cc09b?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind
+-----------------------------------------------
+Artist: Unlike Pluto
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/7b7b30b336703e3546f834f2ff75f09f857eacbe?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind?
+-----------------------------------------------
+Artist: John Mayer
+Track Name: Out of My Mind - Live at the Nokia Theatre, Los Angeles, CA - December 2007
+Preview URL: https://p.scdn.co/mp3-preview/7068493701107a443926cdf7d2a352fe0efb28e4?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where the Light Is: John Mayer Live In Los Angeles
+-----------------------------------------------
+Artist: Safari Riot
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/15f5730741d59f600231e782eee11cc2cd374edf?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind
+-----------------------------------------------
+Artist: Yoav
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/6a98d95bc31614eb3ac6d098e356f71bd61bb3bb?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Sucker Punch (Original Motion Picture Soundtrack)
+-----------------------------------------------
+Artist: Asphalt Orchestra
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/8500f542f4b9c8165fc907369ff01498e468cb9b?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Asphalt Orchestra Plays Pixies: Surfer Rosa
+-----------------------------------------------
+Artist: Nada Surf
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/bd4d9e8729290ac9fde73cd287c00274efd176a6?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind
+-----------------------------------------------
+Artist: Trampled by Turtles
+Track Name: Where Is My Mind? (Live)
+Preview URL: https://p.scdn.co/mp3-preview/6597b65ee3980e74f90eb46a0a75815ccda6fe02?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Live at First Avenue
+-----------------------------------------------
+Artist: Rockabye Baby!
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/04925e5c5ad65b171d0428b61ed0907dba737ca1?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Lullaby Renditions of the Pixies
+-----------------------------------------------
+Artist: The Supervillains
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/2a4cddc62e9b64851c470d75bd7fe7eb37bd9051?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Volume 8
+-----------------------------------------------
+Artist: Placebo
+Track Name: Where Is My Mind? - XFM Live Version
+Preview URL: https://p.scdn.co/mp3-preview/e7b66b59aceb34188ae0d90cb3d33bbea174fff8?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Covers
+-----------------------------------------------
+Artist: Maxence Cyrin
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/b7367243ff20bc65015625485403f39684a356fe?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Lounge Music - The Best Of
+-----------------------------------------------
+Artist: Bandit
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/54b16f48ff4a96031e469f6999cc6a394cf292b9?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Of Life
+-----------------------------------------------
+Artist: Telepathic Teddy Bear
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/1b0a0f170ae7cd8bebcd96e207f92c5f54ad4bcd?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Where Is My Mind
+-----------------------------------------------
+Artist: El DeBarge
+Track Name: Where Is My Love?
+Preview URL: https://p.scdn.co/mp3-preview/33738f1894bb097d907e4fbf5edc22a780669bfc?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Heart, Mind & Soul
+-----------------------------------------------
+Artist: Pixies
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/521077ff7bcdb03c4e616a914ebeaa636d022e21?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Wave Of Mutilation: Best Of Pixies
+-----------------------------------------------
+Artist: Pixies
+Track Name: Where Is My Mind?
+Preview URL: https://p.scdn.co/mp3-preview/23ba420e4291900dfa956af91ebc27a28b1522fc?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Death To The Pixies
+-----------------------------------------------
+Artist: Maxence Cyrin
+Track Name: Where Is My Mind
+Preview URL: https://p.scdn.co/mp3-preview/79dc296591fe2a2b6fa0a59fe03c8f5ce5c55538?cid=2bba23f978ff4f22b8cf5e6495b51973
+Album: Novö Piano
+-----------------------------------------------
 
-Command: do-what-it-says "Beavis and Butt-head Do America"
-{
-  "BegDivider": "-----------------------------------------------",
-  "Title": "Title: Beavis and Butt-Head Do America",
-  "Year": "Year Released: 1996",
-  "IMDBRat": "IMDB Rating: 6.8",
-  "RTRat": "Rotten Tomatoes Rating: 72%",
-  "Location": "Production Location: USA",
-  "Language": "Language: English, Spanish, Hindi",
-  "Plot": "Plot: The dim-witted teen duo of Beavis and Butt-Head travel across America in search of their stolen television set.",
-  "Actors": "Actors: Mike Judge, Bruce Willis, Demi Moore, Cloris Leachman",
-  "EndDivider": "-----------------------------------------------"
-}
+Command: do-what-it-says "The Godfather"
+
+-----------------------------------------------
+Title: The Godfather
+Year Released: 1972
+IMDB Rating: 9.2
+Rotten Tomatoes Rating: 98%
+Production Location: USA
+Language: English, Italian, Latin
+Plot: The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.
+Actors: Marlon Brando, Al Pacino, James Caan, Richard S. Castellano
+-----------------------------------------------
+
+Command: do-what-it-says "Back to the Future"
+
+-----------------------------------------------
+Title: Back to the Future
+Year Released: 1985
+IMDB Rating: 8.5
+Rotten Tomatoes Rating: 96%
+Production Location: USA
+Language: English
+Plot: Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the maverick scientist Doc Brown.
+Actors: Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover
+-----------------------------------------------

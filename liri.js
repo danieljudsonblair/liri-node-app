@@ -9,7 +9,8 @@ var spotify = new Spotify(keys.spotify);
 var command = process.argv[2];
 var nodeArgs = process.argv;
 var fullName = "";
-
+var divider = "-----------------------------------------------";
+var limit = 20;
 for (var i = 3; i < nodeArgs.length; i++) {
     if (i > 3 && i < nodeArgs.length) {
         fullName = fullName + "+" + nodeArgs[i];
@@ -39,7 +40,8 @@ var movieF = function () {
 
     axios.get(queryUrl).then(
         function (response) {
-            movieObj.BegDivider = "-----------------------------------------------";
+
+            movieObj.BegDivider = divider;
             movieObj.Title = "Title: " + response.data.Title;
             movieObj.Year = "Year Released: " + response.data.Year;
             movieObj.IMDBRat = "IMDB Rating: " + response.data.imdbRating;
@@ -48,19 +50,31 @@ var movieF = function () {
             movieObj.Language = "Language: " + response.data.Language;
             movieObj.Plot = "Plot: " + response.data.Plot;
             movieObj.Actors = "Actors: " + response.data.Actors;
-            movieObj.EndDivider = "-----------------------------------------------";
-
+            movieObj.EndDivider = divider;
 
             for (var key in movieObj) {
                 console.log(movieObj[key]);
             }
-            fs.appendFile("log.txt", "\n" + "\n" + "Command: " + command + " " + fullName + "\n" + JSON.stringify(movieObj, null, 2) + "\n", function (err) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log("Content Appended to log.txt");
-                }
-            })
+            fs.appendFile("log.txt", "\n\n" + "Command: " 
+                                            + command + " " 
+                                            + fullName + "\n\n"
+                                            + divider + "\n"
+                                            + movieObj.Title + "\n"
+                                            + movieObj.Year + "\n"
+                                            + movieObj.IMDBRat + "\n"
+                                            + movieObj.RTRat + "\n"
+                                            + movieObj.Location + "\n"
+                                            + movieObj.Language + "\n"
+                                            + movieObj.Plot + "\n"
+                                            + movieObj.Actors + "\n"
+                                            + divider, 
+                function (err) {
+                    if (err) {
+                        console.log(err);
+                    } else {
+                        console.log("Content Appended to log.txt");
+                    }
+                })
 
         }).catch(function (err) {
             console.log(err);
@@ -69,107 +83,102 @@ var movieF = function () {
 };
 
 var concertF = function () {
+    var concertObj = {
+        Command: "Command: " + command + " " + fullName,
+        Venue: [],
+        Location: [],
+        Date: []
+    }
+
+    fs.appendFileSync("log.txt", "\n\n" + concertObj.Command + "\n\n" + divider);
 
     let queryUrl = "https://rest.bandsintown.com/artists/" + fullName +
         "/events?app_id=codingbootcamp"
 
     axios.get(queryUrl).then(
         function (response) {
-            var concertObj = {
-                VenLocDate: []
-            }
+
             for (let i = 0; i < response.data.length; i++) {
-                console.log("-----------------------------------------------");
-                console.log("Venue: " + response.data[i].venue.name);
-                concertObj.VenLocDate.push("\n" + "Venue: " + response.data[i].venue.name);
+                concertObj.Venue.push("Venue: " + response.data[i].venue.name);
                 if (response.data[i].venue.country === 'United States') {
-                    console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
-                    concertObj.VenLocDate.push("\n" + "Location: " + response.data[i].venue.city + ", " + response.data[i].venue.region);
-                    console.log("Date: " + moment(response.data[i].datetime).format('L'));
-                    concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
-                    concertObj.VenLocDate.push("\n" + "-----------------------------------------------");
+                    concertObj.Location.push("Location: " + response.data[i].venue.city + ", "
+                                                          + response.data[i].venue.region);
                 } else {
-                    console.log("Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-                    concertObj.VenLocDate.push("\n" + "Location: " + response.data[i].venue.city + ", " + response.data[i].venue.country);
-                    console.log("Date: " + moment(response.data[i].datetime).format('L')); +
-                        concertObj.VenLocDate.push("\n" + "Date: " + moment(response.data[i].datetime).format('L'));
-                    concertObj.VenLocDate.push("\n" + "-----------------------------------------------");
+                    concertObj.Location.push("Location: " + response.data[i].venue.city + ", "
+                                                          + response.data[i].venue.country);
                 }
-                if (i === response.data.length - 1) {
-                    console.log("-----------------------------------------------");
-                }
-
+                    concertObj.Date.push("Date: " + moment(response.data[i].datetime).format('L'));
             }
 
-            fs.appendFile("log.txt", "\n" + "\n" + "Command: " + command + " " + fullName + "\n" + concertObj.VenLocDate, function (err) {
-                if (err) {
-                    console.log(err);
-                } else {
-                    console.log("Content Appended to log.txt");
-                }
-            })
-        }).catch(function (err) {
+            console.log("\n" + divider);
+            for (var k = 0; k < concertObj.Date.length; k++) {
+
+                console.log(concertObj.Venue[k]);
+                console.log(concertObj.Location[k]);
+                console.log(concertObj.Date[k]);
+                console.log(divider);
+
+            }
+            for (let k = 0; k < concertObj.Venue.length; k++) {
+                fs.appendFile("log.txt", "\n" + concertObj.Venue[k] + "\n"
+                                              + concertObj.Location[k] + "\n"
+                                              + concertObj.Date[k] + "\n"
+                                              + divider, 
+                    function (err) {
+                        if (err) {
+                            console.log(err);
+                        }
+                })
+            }
+            console.log("Content Appended to log.txt");
+        })
+        .catch(function (err) {
             console.log(err);
-        });
+    });
 };
 
 var spotF = function () {
     var spotObj = {
         Command: "Command: " + command + " " + fullName,
-        BegDivider: [],
         Artist: [],
         TrackName: [],
         PreviewURL: [],
-        Album: [],
-        EndDivider: []
+        Album: []
     }
-    fs.appendFileSync("log.txt", "\n" + "\n" + spotObj.Command + "\n");
-    if (fullName === "") {
-        spotify.search({ type: 'track', query: "The Sign Ace of Base" , limit:1})
-            .then(function (response) {
-                console.log("-----------------------------------------------");
-                console.log("Artist: " + response.tracks.items[0].artists[0].name);
-                spotObj.Artist.push("Artist: " + response.tracks.items[0].artists[0].name);
-                console.log("Track Name: " + response.tracks.items[0].name);
-                spotObj.TrackName.push("Track Name: " + response.tracks.items[0].name);
-                console.log("Preview URL: " + response.tracks.items[0].preview_url);
-                spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[0].preview_url);
-                console.log("Album: " + response.tracks.items[0].album.name);
-                spotObj.Album.push("Album: " + response.tracks.items[0].album.name);
-                console.log("-----------------------------------------------");
-            })
-    } else {
-        spotify.search({ type: 'track', query: fullName })
+    fs.appendFileSync("log.txt", "\n\n" + spotObj.Command + "\n\n" + divider);
+    if (fullName === "") { 
+        fullName = "The Sign Ace of Base";
+        limit = 1 };
+
+        spotify.search({ type: 'track', query: fullName, limit: limit })
             .then(function (response) {
                 for (let j = 0; j < response.tracks.items.length; j++) {
-                    console.log("------------------------------------------------");
-                    spotObj.BegDivider.push("------------------------------------------------");
-                    console.log("Artist: " + response.tracks.items[j].artists[0].name);
-                    spotObj.Artist.push("Artist: " + response.tracks.items[j].artists[0].name);
-                    console.log("Track Name: " + response.tracks.items[j].name);
-                    spotObj.TrackName.push("Track Name: " + response.tracks.items[j].name);
+                       spotObj.Artist.push("Artist: " + response.tracks.items[j].artists[0].name);
+                       spotObj.TrackName.push("Track Name: " + response.tracks.items[j].name);
                     if (response.tracks.items[j].preview_url == null) {
-                        console.log("Preview URL Not Available");
                         spotObj.PreviewURL.push("Preview URL Not Available");
                     } else {
-                        console.log("Preview URL: " + response.tracks.items[j].preview_url);
                         spotObj.PreviewURL.push("Preview URL: " + response.tracks.items[j].preview_url);
                     }
-                    console.log("Album: " + response.tracks.items[j].album.name);
-                    spotObj.Album.push("Album: " + response.tracks.items[j].album.name);
-                    if (j === response.tracks.items.length - 1) {
-                        console.log("------------------------------------------------");
-                        spotObj.EndDivider.push("------------------------------------------------");
-                    }
-
+                        spotObj.Album.push("Album: " + response.tracks.items[j].album.name);
+                }
+                console.log("\n" + divider);
+                for (let k = 0; k<spotObj.TrackName.length; k++) {
+                    console.log(spotObj.Artist[k]);
+                    console.log(spotObj.TrackName[k]);
+                    console.log(spotObj.PreviewURL[k]);
+                    console.log(spotObj.Album[k]);
+                    console.log(divider);
                 }
 
                 for (let k = 0; k < spotObj.TrackName.length; k++) {
-                    fs.appendFile("log.txt", "\n" + spotObj.BegDivider[k] + "\n" + spotObj.Artist[k] + "\n" + spotObj.TrackName[k] + "\n" + spotObj.PreviewURL[k] + "\n" + spotObj.Album[k], function (err) {
+                    fs.appendFile("log.txt", "\n" + spotObj.Artist[k] + "\n" 
+                                                  + spotObj.TrackName[k] + "\n" 
+                                                  + spotObj.PreviewURL[k] + "\n" 
+                                                  + spotObj.Album[k] + "\n"
+                                                  + divider, function (err) {
                         if (err) {
                             console.log(err);
-                        } else {
-
                         }
                     })
                 }
@@ -177,8 +186,8 @@ var spotF = function () {
             })
             .catch(function (err) {
                 console.log(err);
-            });
-    }
+        });
+    
 };
 
 var doThisF = function () {
@@ -186,7 +195,6 @@ var doThisF = function () {
         if (err) {
             return console.log(err);
         }
-
         data = data.split(",")
         var rand = Math.floor(Math.random() * data.length * .5) * 2;
         fullName = data[rand + 1];
@@ -203,7 +211,6 @@ var doThisF = function () {
                 break;
         }
     })
-
 };
 
 switch (command) {
